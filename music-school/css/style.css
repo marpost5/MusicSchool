@@ -1,0 +1,296 @@
+/* Aleksandar Jankulovski 191047 */
+body{
+    background-image: url("../images/bg-body.jpg");
+    font-family: Arial,Helvetica, sans-serif;
+    font-size: 14px;
+}
+.header{
+    background-image: url("../images/bg-header.jpg");
+    background-repeat: no-repeat;
+    height: 64px;
+    width: 960px;
+}
+.header ul{
+    position: relative;
+    left: 340px;
+    top: -59px;
+}
+.header li{
+    display: inline;
+    padding-left: 27px;
+}
+.header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.selected a{
+    background-color: orange;
+    padding: 22px 23px;
+}
+.featured div{
+    background-image: url("../images/girl.jpg");
+    background-repeat: no-repeat;
+    height: 390px;
+    color: white;
+}
+.featured div p{
+    position: relative;
+    left: 380px;
+    top: 30px;
+    width: 13%;
+    text-align: right;
+}
+.featured div p:nth-of-type(2)
+{
+    position: relative;
+    top: 40px;
+}
+.featured > p
+{
+    width: 40%;
+    color: rgb(82, 82, 82);
+}
+.featured > p a{
+    color:rgb(82, 82, 82);
+}
+.section h3{
+    background-image: url("../images/bg-title.png");
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 208px;
+    text-align: center;
+    color: white;
+}
+.section{
+    background-color: white;
+    border-radius: 10px;
+    height: 450px;
+    width: 600px;
+}
+.section li{
+    list-style: none;
+}
+.section ul li:nth-of-type(1) span{
+    position: relative;
+    top: -140px;
+    left: 40px;
+    background-image: url("../images/bg-instruments-title.png");
+    height: 24px;
+    width: 111px;
+}
+.section ul li:nth-of-type(1){
+    position: relative;
+    top: 20px;
+    left: -70px;
+}
+.section ul li:nth-of-type(2) span{
+    position: relative;
+    top: -140px;
+    left: 40px;
+    background-image: url("../images/bg-instruments-title.png");
+    height: 24px;
+    width: 111px;
+}
+.section ul li:nth-of-type(2){
+    position: relative;
+    top: -120px;
+    left: 130px;
+}
+.section ul li:nth-of-type(3) span{
+    position: relative;
+    top: -140px;
+    left: 40px;
+    background-image: url("../images/bg-instruments-title.png");
+    height: 24px;
+    width: 111px;
+}
+.section ul li:nth-of-type(3){
+    position: relative;
+    top: -260px;
+    left: 330px;
+}
+.section ul li:nth-of-type(4) span{
+    position: relative;
+    top: -140px;
+    left: 73px;
+    background-image: url("../images/bg-instruments-title.png");
+    height: 24px;
+    width: 111px;
+}
+.section ul li:nth-of-type(4){
+    position: relative;
+    top: -230px;
+    left: -110px;
+}
+.section ul li:nth-of-type(5) span{
+    position: relative;
+    top: -140px;
+    left: 43px;
+    background-image: url("../images/bg-instruments-title.png");
+    height: 24px;
+    width: 111px;
+}
+.section ul li:nth-of-type(5){
+    position: relative;
+    top: -370px;
+    left: 120px;
+}
+.section ul li:nth-of-type(6) span{
+    position: relative;
+    top: -140px;
+    left: 85px;
+    background-image: url("../images/bg-instruments-title.png");
+    height: 24px;
+    width: 111px;
+}
+.section ul li:nth-of-type(6){
+    position: relative;
+    top: -510px;
+    left: 280px;
+}
+.sidebar{
+    background-color: white;
+    position: relative;
+    left: 620px;
+    top: -935px;
+    width: 330px;
+    border-radius: 10px;
+    height: 800px;
+
+}
+.sidebar ul{
+    position: relative;
+    left: -20px;
+    color: rgb(82, 82, 82);
+}
+.sidebar a{
+    color: rgb(82, 82, 82);
+}
+.sidebar a:hover{
+    color: orange;
+}
+.sidebar li{
+    list-style: none;
+}
+.sidebar ul li:nth-of-type(1) h2
+{
+    font-size: 13px;
+}
+.sidebar ul li:nth-of-type(2) p
+{
+    width: 40%;
+}
+.sidebar ul li:nth-of-type(2) h2
+{
+    font-size: 13px;
+}
+.sidebar ul li:nth-of-type(3) a
+{
+    position: relative;
+    left: 105px;
+    top: -140px;
+}
+.sidebar ul li:nth-of-type(3) p
+{
+    position: relative;
+    left: 155px;
+    width: 50%;
+    top: -150px;
+}
+.sidebar ul li:nth-of-type(3) p a{
+    position: relative;
+    left: -0.5px;
+    top: 0.5px;
+}
+.sidebar ul li:nth-of-type(3) h2
+{
+    position: relative;
+    top: -145px;
+    left: 153px;
+    font-size: 13px;
+}
+.sidebar ul li:nth-of-type(3) span{
+    position: relative;
+    top: -260px;
+    left: 150px;
+}
+.sidebar ul li:nth-of-type(4) a
+{
+    position: relative;
+    top: -120px;
+    left: -50px;
+}
+.sidebar ul li:nth-of-type(4) p
+{
+    position: relative;
+    top: -130px;
+    width: 50%;
+}
+.sidebar ul li:nth-of-type(4) p a{
+    position: relative;
+    top: 0.5px;
+    left: 0.5px;
+}
+.sidebar ul li:nth-of-type(4) h2
+{
+    position: relative;
+    top: -120px;
+    font-size: 13px;
+}
+.sidebar ul li:nth-of-type(4) span{
+    position: relative;
+    top: -230px;
+    
+}
+.sidebar ul li:nth-of-type(5){
+    position: relative;
+    left: 165px;
+    top: -335px;
+}
+.sidebar ul li:nth-of-type(5) p
+{
+    width: 40%;
+}
+.sidebar ul li:nth-of-type(5) h2
+{
+    font-size: 13px;
+}
+.sidebar > a
+{
+    position: relative;
+    top: -285px;
+    left: 120px;
+}
+.about
+{
+    position: relative;
+    top: -800px;
+    width: 450px;
+}
+.about div{
+    background-color: white;
+    border-radius: 10px;
+    height: 170px;
+}
+.about h3{
+    color: orange;
+}
+.about div p{
+    position: relative;
+    width: 45%;
+    left: 250px;
+    top: -140px;
+}
+.about div a:nth-of-type(1)
+{
+    padding-left: 15px;
+    margin-top: 20px;
+}
+.about div a:nth-of-type(2)
+{
+  color: rgb(82, 82, 82);
+  position: relative;
+  left: 325px;
+  top: -171px;
+}
